@@ -1,20 +1,15 @@
-<<<<<<< HEAD
 import 'package:doctor_app/core/theming/app_styles.dart';
 import 'package:doctor_app/features/onboarding/widgets/doc_logo_and_name.dart';
 import 'package:doctor_app/features/onboarding/widgets/doctor_image_and_text.dart';
 import 'package:doctor_app/features/onboarding/widgets/get_started_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-=======
-import 'package:flutter/material.dart';
->>>>>>> 498407f (screen routes)
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
     return SafeArea(
       child: Scaffold(
         body: SingleChildScrollView(
@@ -54,8 +49,3 @@ class OnboardingScreen extends StatelessWidget {
     );
   }
 }
-=======
-    return Container();
-  }
-}
->>>>>>> 498407f (screen routes)
