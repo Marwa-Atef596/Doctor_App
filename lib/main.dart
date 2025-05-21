@@ -9,6 +9,7 @@ void main() {
 =======
 >>>>>>> 498407f (screen routes)
   runApp(DocApp(
+    
     appRouter: AppRouter(),
   ));
 =======
