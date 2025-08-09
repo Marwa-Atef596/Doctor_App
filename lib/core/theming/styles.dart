@@ -19,6 +19,16 @@ class Styles {
     color: ColorApp.mainBlue,
     fontWeight: FontWeightHelper.bold,
   );
+  static TextStyle font18WhiteMedium = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: Colors.white,
+  );
+  static TextStyle font18DarkBlueBold = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: ColorApp.darkBlue,
+  );
   static TextStyle font16WhiteMedium = TextStyle(
     fontSize: 16.sp,
     fontWeight: FontWeightHelper.medium,
@@ -68,5 +78,16 @@ class Styles {
     fontSize: 15.sp,
     fontWeight: FontWeightHelper.medium,
     color: ColorApp.darkBlue,
+  );
+  static TextStyle font12DarkBlueRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: ColorApp.darkBlue,
+  );
+
+  static TextStyle font12BlueRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: ColorApp.mainBlue,
   );
 }
