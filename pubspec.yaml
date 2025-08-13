@@ -49,6 +49,10 @@ dependencies:
   retrofit_generator: ^9.2.0
   shared_preferences: ^2.5.3
   flutter_secure_storage: ^9.2.4
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+
+
 
 dev_dependencies:
   flutter_lints: ^5.0.0

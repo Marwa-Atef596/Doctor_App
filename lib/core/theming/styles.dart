@@ -49,6 +49,11 @@ class Styles {
     fontWeight: FontWeightHelper.regular,
     color: ColorApp.lightGray,
   );
+  static TextStyle font14DarkBlueBold = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: ColorApp.darkBlue,
+  );
   static TextStyle font13DarkBlueMedium = TextStyle(
     fontSize: 13.sp,
     fontWeight: FontWeightHelper.medium,
